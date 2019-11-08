@@ -55,7 +55,7 @@ const text = (() => {
     putin.setAttribute('class','form__input')
     putin.setAttribute('type','text')
     putin.setAttribute('value',words)
-    putin.setAttribute('focus')
+    putin.focus()
     thing.childNodes[0].nodeValue = ''
     //console.log(putin)
     thing.append(putin)
